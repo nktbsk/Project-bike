@@ -1,0 +1,7 @@
+@import url('./basic.css');
+
+@import url('./header.css');
+
+/* ! MAIN  */
+@import url('./hero.css');
+@import url('./partners.css');

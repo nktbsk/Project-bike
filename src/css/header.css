@@ -1,0 +1,61 @@
+.header {
+  position: relative;
+  background-color: #101010;
+}
+.background-header {
+  background-image: url('../img/backgrounds/background-hero-mobail.jpg'),
+    linear-gradient(270deg, #000 0.36%, rgba(0, 0, 0, 0) 100%);
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 360px;
+  margin: auto;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 33px 20px 32px;
+}
+
+.header-btn-search {
+  width: 24px;
+  height: 24px;
+}
+
+.header-list-menu {
+  display: flex;
+  gap: 16px;
+  margin-right: 24px;
+}
+
+.header-link-logo {
+  margin-right: 55px;
+}
+
+/** ICONS */
+
+.header-icon-logo {
+  width: 65px;
+  height: 35px;
+}
+
+.header-icon-search {
+  width: 24px;
+  height: 24px;
+  stroke: #fff;
+  fill: none;
+}
+
+.header-icon-menu {
+  width: 24px;
+  height: 24px;
+  stroke: #fff;
+  fill: none;
+}
+
+.header-icon-burger {
+  width: 32px;
+  height: 20px;
+  stroke: #fff;
+}

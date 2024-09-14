@@ -1,0 +1,120 @@
+.hero-main {
+  position: relative;
+  background-color: #101010;
+}
+.background-hero {
+  background-image: url('../img/backgrounds/background-hero-mobail.jpg'),
+    linear-gradient(270deg, #000 0.36%, rgba(0, 0, 0, 0) 100%);
+  background-repeat: no-repeat;
+  background-position: center -100px;
+  width: 360px;
+  margin: auto;
+}
+
+.hero-main-wrapper {
+  padding-top: 243px;
+  padding-bottom: 40px;
+}
+
+.hero-main-title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 123%;
+  letter-spacing: 0.05em;
+  color: var(--white);
+  height: 126px;
+}
+
+.hero-main-p {
+  margin-top: 24px;
+  margin-bottom: 32px;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0.01em;
+  color: var(--white);
+}
+
+.hero-main-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 180px;
+  height: 52px;
+  background: var(--orange);
+  color: var(--white);
+}
+
+.hero-main-btn:hover {
+  background-color: #f57f2a;
+}
+
+.hero-main-btn:focus {
+  background-color: var(--or3);
+}
+
+/* ! Slider */
+
+.hero-slider {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.hero-slider-indecator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 60px;
+  height: 19px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.hero-slider-icon {
+  width: 9px;
+  height: 9px;
+  fill: var(--first-grey);
+}
+
+.hero-slides {
+  display: flex;
+  width: 1000px;
+  animation: slide 15s infinite;
+  gap: 20px;
+}
+
+.hero-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  width: 360px;
+  height: 180px;
+  background: var(--bl);
+  padding: 25px;
+}
+
+.hero-slde-p {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0.01em;
+  color: var(--white);
+  text-align: center;
+}
+
+.hero-slde-a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 123%;
+  color: var(--orange);
+}

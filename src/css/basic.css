@@ -1,0 +1,102 @@
+/* ! Шрифты */
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../public/fonts/Inter-VariableFont_opsz,wght.ttf')
+    format('truetype');
+  font-weight: 300 900; /* Указываем диапазон от Light (300) до Black (900) */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../../public/fonts/bebasneuecyrillic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../../public/fonts/OpenSans-VariableFont_wdth,wght.ttf')
+    format('truetype');
+  font-weight: 300 800; /* Указываем диапазон весов */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../../public/fonts/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../../public/fonts/Montserrat-VariableFont_wght.ttf')
+    format('truetype');
+  font-weight: 600 900;
+  font-style: normal;
+}
+
+/* ! Global styles */
+
+:root {
+  --font-family: 'Inter', sans-serif;
+  --second-family: 'Bebas Neue', sans-serif;
+  --third-family: 'Open Sans', sans-serif;
+  --font4: 'Montserrat', sans-serif;
+}
+
+:root {
+  --bl: #101010;
+  --dark: #34312d;
+  --dark-grey: #2e2e2e;
+  --first-grey: #4c4c4c;
+  --second-grey: #777;
+  --light-grey: #b3b3b3;
+  --third-grey: #e5e5e5;
+  --bg: #f8f8f8;
+  --white: #fff;
+  --orange: #f57520;
+  --or2: #eb6b16;
+  --or3: #e1610c;
+  --or4: #d75702;
+  --red: #f53a20;
+  --banner: #131313;
+  --green: #4d932c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button,
+input {
+  border: none;
+  background: none;
+  font: inherit;
+}
+img {
+  /* max-width: 100%;
+  height: auto; */
+  display: block;
+}
+body {
+}
+
+/* ! section & container */
+
+.section {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.container {
+  max-width: 400px;
+  padding: 0 20px;
+  margin: auto;
+}

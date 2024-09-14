@@ -1,0 +1,35 @@
+.section-partners {
+  height: 120px;
+  padding-bottom: 24px;
+}
+
+.scrolling-wrapper {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.scrolling-content {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+  width: 100%;
+  animation: scroll 20s linear infinite;
+}
+
+.scrolling-item {
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
