@@ -2,33 +2,33 @@
 
 @font-face {
   font-family: 'Inter';
-  src: url('../../public/fonts/Inter-VariableFont_opsz,wght.ttf')
+  src: url('../assets/fonts/Inter-VariableFont_opsz,wght.ttf')
     format('truetype');
-  font-weight: 300 900; /* Указываем диапазон от Light (300) до Black (900) */
+  font-weight: 300 900;
   font-style: normal;
 }
 @font-face {
   font-family: 'Bebas Neue';
-  src: url('../../public/fonts/bebasneuecyrillic.ttf') format('truetype');
+  src: url('../assets/fonts/bebasneuecyrillic.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Open Sans';
-  src: url('../../public/fonts/OpenSans-VariableFont_wdth,wght.ttf')
+  src: url('../assets/fonts/OpenSans-VariableFont_wdth,wght.ttf')
     format('truetype');
   font-weight: 300 800; /* Указываем диапазон весов */
   font-style: normal;
 }
 @font-face {
   font-family: 'Bebas Neue';
-  src: url('../../public/fonts/BebasNeue-Regular.ttf') format('truetype');
+  src: url('../assets/fonts/BebasNeue-Regular.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'Montserrat';
-  src: url('../../public/fonts/Montserrat-VariableFont_wght.ttf')
+  src: url('../assets/fonts/Montserrat-VariableFont_wght.ttf')
     format('truetype');
   font-weight: 600 900;
   font-style: normal;
