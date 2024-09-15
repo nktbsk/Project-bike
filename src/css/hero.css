@@ -3,7 +3,7 @@
   background-color: #101010;
 }
 .background-hero {
-  background-image: url('../img/backgrounds/background-hero-mobail.jpg'),
+  background-image: url('/img/backgrounds/background-hero-mobail.jpg'),
     linear-gradient(270deg, #000 0.36%, rgba(0, 0, 0, 0) 100%);
   background-repeat: no-repeat;
   background-position: center -100px;

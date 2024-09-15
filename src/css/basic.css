@@ -74,6 +74,7 @@ ol {
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 button,
 input {
@@ -86,7 +87,8 @@ img {
   height: auto; */
   display: block;
 }
-body {
+button {
+  cursor: pointer;
 }
 
 /* ! section & container */
